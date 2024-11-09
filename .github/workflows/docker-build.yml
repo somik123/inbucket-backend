@@ -27,8 +27,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            inbucket/inbucket
-            ghcr.io/${{ github.repository }}
+            somik123/inbucket
           tags: |
             type=ref,event=branch
             type=ref,event=pr
